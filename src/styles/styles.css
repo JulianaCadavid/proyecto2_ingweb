@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Navbar */
+.header{
+    @apply absolute top-0 left-[124px] bg-[#BDC9F3] w-[74.313rem] h-[17.5rem] 
+}
+
+.header-name{
+    @apply absolute left-[376px] top-[70px] w-[26.375rem] h-[7.25rem] text-[#292727] font-bold font-['Fira_Sans'] text-[48px] leading-[58px] 
+}
+
+.header-last{
+    @apply absolute left-[476px] top-[130px]   text-[#292727] font-bold font-['Fira_Sans'] text-[48px] leading-[58px]
+}
+
+.foto{
+    @apply  absolute top-[-70px] left-[-30px] w-[40.25rem] h-[32.25rem] 
+}
+
+/* Perfil */
+
+.title-profile{
+    @apply  top-[364px] left-[534px]
+}
+
+
+.text-profile{
+    @apply top-[409px] left-[555px]
+}
+
+/* Información académica */
+
+.title-info{
+    @apply top-[616px] left-[534px]
+}
+
+.subtitle-udea{
+    @apply top-[661px] left-[538px]
+}
+
+.subtitle-udea-year{
+    @apply top-[698px] left-[571px]
+}
+
+.text-udea{
+    @apply top-[735px] left-[571px]
+}
+
+.subtitle-bach{
+    @apply top-[795px] left-[538px]
+}
+
+.subtitle-bach-year{
+    @apply top-[824px] left-[577px]
+}
+
+.subtitle-prim{
+    @apply top-[869px] left-[534px]
+}
+
+.subtitle-prim-year{
+    @apply top-[906px] left-[573px]
+}
+
+/* Información laboral */
+
+.title-work{
+    @apply top-[1019px] left-[535px]
+}
+
+.subtitle-tuto{
+    @apply top-[1063px] left-[540px]
+}
+
+.text-tuto{
+    @apply top-[1093px] left-[528px]
+}
+
+.subtitle-mat{
+    @apply top-[1183px] left-[542px]
+}
+
+.text-mat{
+    @apply top-[1216px] left-[542px]
+}
+
+/* Cursos y certificados */
+
+.title-cour{
+    @apply top-[1331px] left-[535px]
+}
+
+.text-cour{
+    @apply top-[1376px] left-[558px]
+}
+
+/* Proyectos */
+
+.title-pro{
+    @apply top-[1518px] left-[525px]
+}
+
+.text-pro{
+    @apply top-[1563px] left-[546px]
+}
+
+/* Hobbies */
+
+.title-hob{
+    @apply top-[1687px] left-[525px]
+}
+
+.text-hob{
+    @apply top-[1737px] left-[539px]
+}
+
+/* Habilidades */
+
+
+.skill{
+    @apply absolute rounded bg-[#C4C4C4]
+}
+
+.skill-1{
+    @apply  w-[19.313rem] h-[0.563rem] top-[710px] left-[154px] 
+}
+
+.skill-p{
+    @apply absolute rounded bg-[#EE9A87]
+}
+
+.skill-1-p{
+    @apply  w-[15.063rem] h-[0.563rem] top-[710px] left-[154px] 
+}
+
+.subtitle-skills{
+    @apply top-[640px] left-[151px]
+}
+
+.text-s-1{
+    @apply top-[680px] left-[150px]
+} 
+
+
+/* General */
+
+.title{
+    @apply absolute text-[#4F75F0] font-['Fira_Sans'] text-[24px] leading-[29px]
+}
+
+
+.subtitle-b{
+    @apply absolute font-medium text-[#292727] font-['Fira_Sans'] text-[24px] leading-[28.8px]
+}
+
+.text{
+    @apply absolute  text-[#292727] font-['Fira_Sans'] text-[18px] leading-[22px] text-justify w-[43.625rem]
+
+}
+
+
+.subtitle{
+    @apply absolute text-[#F06D4F] font-['Fira_Sans'] text-[24px] leading-[28.8px]
+}
+
+/* INFO */
+
+.subtitle-info{
+    @apply top-[312px] left-[155px] 
+}
+
+.title-ubi{
+    @apply top-[350px] left-[154px] 
+}    
+
+.text-ubi{
+    @apply top-[387px] left-[197px]
+}
+
+.title-contact{
+    @apply top-[433px] left-[151px] 
+}
+
+.text-contact{
+    @apply top-[470px] left-[200px] 
+}
+
+.title-email{
+    @apply top-[516px] left-[150px] 
+}
+
+.text-email{
+    @apply top-[560px] left-[196px] 
+}
+
+
